@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self Seva: Your 24/7 Transport Solution</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Self Seva</div>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#!" id="loginBtn">Login</a></li>
+                <li><a href="#!" id="signupBtn">Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Self Seva: Your 24/7 Transport Solution</h1>
+            <p>Convenient and reliable transport services around the clock.</p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <img src="images/electric-vehicle.jpg" alt="Electric Vehicle">
+                <h3>Electric Vehicle</h3>
+                <p>Eco-friendly rides at minimal charges.</p>
+            </div>
+            <div class="card">
+                <img src="images/cng-vehicle.jpg" alt="CNG Vehicle">
+                <h3>CNG Vehicle</h3>
+                <p>Economical travel with our CNG fleet.</p>
+            </div>
+            <!-- Add more cards for other services -->
+            <div class="card">
+                <img src="images/auto.jpg" alt="Toto or Auto">
+                <h3>Toto or Auto</h3>
+                <p>Ideal for short-distance travel.</p>
+            </div>
+            <div class="card">
+                <img src="images/car.jpg" alt="Car Only">
+                <h3>Car Only</h3>
+                <p>Rent a car easily with a valid ID.</p>
+            </div>
+            <div class="card">
+                <img src="images/bike.jpg" alt="Bike Only">
+                <h3>Bike Only</h3>
+                <p>Rent a bike hassle-free with basic details.</p>
+            </div>
+            <div class="card">
+                <img src="images/driver.jpg" alt="Driver Only">
+                <h3>Driver Only</h3>
+                <p>Reliable drivers when you need them most.</p>
+            </div>
+            <div class="card">
+                <img src="images/car-driver.jpg" alt="Car with Driver">
+                <h3>Car with Driver</h3>
+                <p>Perfect for urgent tasks or planned trips.</p>
+            </div>
+            <div class="card">
+                <img src="images/bike-driver.jpg" alt="Bike with Driver">
+                <h3>Bike with Driver</h3>
+                <p>Quick, local travel solutions.</p>
+            </div>
+            <div class="card">
+                <img src="images/luxury-car.jpg" alt="Luxury Cars with Driver">
+                <h3>Luxury Cars with Driver</h3>
+                <p>Experience luxury with professional drivers.</p>
+            </div>
+            <div class="card">
+                <img src="images/mechanic.jpg" alt="Mechanic">
+                <h3>Mechanic</h3>
+                <p>On-call mechanics for breakdowns and repairs.</p>
+            </div>
+            <div class="card">
+                <img src="images/registration.jpg" alt="Registration">
+                <h3>Registration</h3>
+                <p>Join our team or rent your vehicle.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At Self Seva, we prioritize seamless and affordable transport while creating job opportunities for drivers and vehicle owners. Join us to experience unmatched convenience and reliability.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: 8102663363</p>
+        <p>Email: <a href="mailto:prabhakar841443@gmail.com">prabhakar841443@gmail.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/8102663363">8102663363</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/er.prabhakar_kumar_monu1?igsh=ejU5ZWFtdm1kbGhq">er.prabhakar_kumar_monu1</a></p>
+        <p>Facebook: <a href="https://www.linkedin.com/in/prabhakar-kumar-b59563270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Prabhakar Kumar</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/prabhakar-kumar-b59563270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Prabhakar Kumar</a></p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Self Seva. All rights reserved.</p>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="loginClose">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="loginEmail">Email:</label>
+                <input type="email" id="loginEmail" name="email" required>
+                <label for="loginPassword">Password:</label>
+                <input type="password" id="loginPassword" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="signupClose">&times;</span>
+            <h2>Signup</h2>
+            <form id="signupForm">
+                <label for="signupName">Name:</label>
+                <input type="text" id="signupName" name="name" required>
+                <label for="signupEmail">Email:</label>
+                <input type="email" id="signupEmail" name="email" required>
+                <label for="signupPassword">Password:</label>
+                <input type="password" id="signupPassword" name="password" required>
+                <button type="submit">Signup</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
